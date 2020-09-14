@@ -1,1 +1,13 @@
+Step 1 -- Open Terminal
+First of all, click on Dash Home which is located on the top left corner of the window. In the search field, type in "Terminal" and hit the "enter" key to proceed. This will open up the terminal application.
 
+Step 2 -- Install dhcp server
+Once the terminal opens up, type the command "sudo apt-get install isc-dhcp-server" and hit the "enter" key in order to setup the dhcp server in ubuntu. In such cases where you are working with multiple network cards, first select the card which will listen for the dynamic host configuration protocol requests in the ubuntu server. By default, the ubuntu server will listen on eth0.
+To suit your requirements, you may need to make changes in the default configuration. You can do so by editing dhcpd.conf
+
+Step 3 -- Insert the password
+Once you have typed in the command and hit the "enter" key, you will be asked to type in the password. Insert the password so that you can continue with the setup of the dhcp server in ubuntu.
+With that done, all the details will be displayed to you, including what packages will be upgraded and what packages will be installed. Before the installation process starts, you will be prompted whether or not you want to continue with the installation.
+
+Step 4 -- Close the terminal
+Press the Y key on the keyboard and hit the "enter" key to continue on with the process. From this point onwards, the installation is pretty much automatic. Once the installation is completed, you can type in exit and hit enter to close the terminal.
